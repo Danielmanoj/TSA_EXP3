@@ -8,9 +8,9 @@ type to fit the data.
 
 ### ALGORITHM:
 1. Import the necessary packages
-2. Find the mean, variance and then implement normalization for the data.
-3. Implement the correlation using necessary logic and obtain the results
-4. Store the results in an array
+2. Calculate statistics: Compute the mean and variance of the selected time series data.
+3. Subtract the mean from each data point and divide by the square root of the variance to normalize the time series.
+4. Use the np.correlate function to calculate the autocorrelation function, keeping only the positive lags.
 5. Represent the result in graphical representation as given below.
 
    
